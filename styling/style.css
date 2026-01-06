@@ -1,0 +1,76 @@
+body {
+    background-color: #292b47;
+    color: white;
+    font-family: "Barlow light", sans-serif;
+    line-height: 1.67;
+    margin: 0;
+    padding: 1em;
+
+}
+
+header {
+    border-bottom:#0ca637 solid 0.2em;
+    margin-bottom: 0.5em;
+}
+
+.gridWrapper {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1em;
+        justify-content: center;
+}
+
+h1, h2 {
+    color: #0ca637
+}
+
+section {
+    border: 0.1px solid #333;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 0.2em;
+    
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 300px;
+    min-height: 200px;
+}
+
+.releasesWrapper {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.trackCard {
+    background-color: #262841;
+    padding: 1em;
+    border-radius: 0.5em;
+    border-top: 4px solid #0ca637;
+    flex: 1 1 200px;
+}
+
+.coverPlaceholer {
+    background: #333;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.btn {
+    display:inline-block;
+    margin-top: 0.5em;
+    color: #0ca682;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid #0ca637;
+    border-radius: 0.5em;
+    padding: 0.3em 0.8em;
+}
+.btn:hover {
+    background: #0ca637;
+    color: white;
+}
