@@ -4,11 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>You've landed!</title>
-    <link rel="stylesheet" href="/styling/style.css">
+    <link rel="stylesheet" href="styling/style.css">
 </head>
-<body>
+<body class="toTriggerLightMode">
+
+    <nav>
+        <ul>
+            <li><a href="https://www.instagram.com/eliinthemix/">Instagram @eliinthemix</a></li>
+            <div></div>
+            <li><a href="https://www.linkedin.com/in/elias-reinhardt-697508387/">LinkedIn</a></li>
+            <div></div>
+            <li><button id="modeBtn" type="button">
+                Light Mode
+                </button>
+            </li>
+        </ul>
+    </nav>
+
     <header>
-        <h1>Elias Nachname</h1>
+        <h1><span id="Elias">Elias</span>
+            <span id="Reinhardt">Reinhardt</span>
+        </h1>
     </header>
 
     <main class="gridWrapper">
@@ -31,25 +47,39 @@
         </section>
 
         <section id="music">
-            <h2>My Newest Releases</h2>
+            <h2>Recommended Releases</h2>
             <div class="releasesWrapper">
 
                 <article class="trackCard">
-                    <div class="coverPlaceholder">EDM</div>
-                    <h3>Songtitel</h3>
-                    <p>Genre: Minimal Techno</p>
-                    <a href="https://www.youtube.com" class="btn">Listen on YouTube!</a>
+                        <iframe class="coverPlaceholder" 
+                        width="560" height="315" 
+                        src="https://www.youtube.com/embed/OmMHJVvpa6Q?si=YhQ4Z0GH6S7-G3tI" 
+                        title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                    </iframe>
+                    <h3>I am the Creator</h3>
+                    <p>Genre: Tech House</p>
+                    <a href="https://on.soundcloud.com/WekKphfkk44HyLgWHc" class="btn">Listen on SoundCloud!</a>
                 </article>
 
                 <article class="trackCard">
-                    <div class="coverPlaceholder">HipHop</div>
-                    <h3>Songtitel 2</h3>
-                    <p>Genre: Oldskool</p>
-                    <a href="https://www.youtube.com" class="btn">Listen on YouTube!</a>
+                    
+                    <iframe width="560" height="315" 
+                    src="https://www.youtube.com/embed/RWV88yx5lqk?si=FxO9mna9o9sgAp_p" 
+                    title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                    </iframe>
+                    <h3>Ignore It</h3>
+                    <p>Genre: Drum n Bass</p>
+                    <a href="https://on.soundcloud.com/owz0w1xNh7npiZc84u" class="btn">Listen on SoundCloud!</a>
                 </article>
 
             </div>
         </section>
     </main>
+
+    <script src="scripts/script.js"></script>
 </body>
 </html>
